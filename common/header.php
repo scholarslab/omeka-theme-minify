@@ -43,7 +43,7 @@
 
 <div id="container">
     <header>
-        
+       <?php echo public_nav_main(); ?>
     </header>
     
     <div id="main">

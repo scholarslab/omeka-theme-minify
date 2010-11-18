@@ -1,8 +1,13 @@
 </div>
 
 <footer>
-
+    <p>Proudly powered by <a href="http://omeka.org">Omeka</a>.</p>
+    
+    <p>&copy; <?php echo settings('copyright'); ?>
+    
+    <?php echo plugin_footer(); ?>
 </footer>
+
 </div> <!--! end of #container -->
 
 
@@ -27,8 +32,10 @@
 <![endif]-->
 
 <!-- yui profiler and profileviewer - remove for production -->
-<script src="js/profiling/yahoo-profiling.min.js"></script>
-<script src="js/profiling/config.js"></script>
+<?php 
+    echo js('profiling/yahoo-profiling.min.js');
+    echo js('profiling/config.js'); 
+?>
 <!-- end profiling code -->
 
 
