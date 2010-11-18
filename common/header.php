@@ -32,7 +32,7 @@
   ?>
   
   <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
-  <?php echo js('libs/modernizer-1.5.min'); ?>
+  <?php echo js('libs/modernizer-1.6.min'); ?>
   
   <!-- RSS link -->
   <?php echo auto_discovery_link_tag(); ?>
