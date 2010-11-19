@@ -4,18 +4,18 @@ This is based upon the [HTML5 Boilerplate](http://html5boilerplate.com) scripts,
 
 ## Usage:
 
-For the impatiend:
+For the impatient:
 
-`git clone git://github.com/scholarslab/omeka-theme-minify.git
- cd omeka-theme-minify/build
- chmod +x createproject.sh
- ./createproject.sh
-`
+	git clone git://github.com/scholarslab/omeka-theme-minify.git
+	cd omeka-theme-minify/build
+	chmod +x createproject.sh
+ 	./createproject.sh
+
 
 After your project is created, place javascript libraries you want concatenated and compressed in javascripts/mylibs. Already minified libraries in libs. When you're ready to build the theme and deploy, simply go execute the ant script:
 
-`cd build
-ant build`
+	cd build
+	ant build
 
 This will create a new directory `publish` with all your theme assets compressed and ready to deploy.
 
